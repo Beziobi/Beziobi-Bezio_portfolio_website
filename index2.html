@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src = "login_.js"></script>
+    <style>
+        body{
+            background: #fc0;
+
+        }
+        .div1{
+            width: 350px;
+            margin: auto;
+            margin: 10 0 450px;
+            overflow:hidden;
+            padding: 75px;
+            background: #003300;
+        }
+        h2{
+            text-align: center;
+            padding:10px;
+            color:#003300;
+
+        }
+        label{
+            color:white;
+            padding-left: 10px;
+        }
+        .inputText{
+            width: 300px;
+            height: 30px;
+            border:none;
+            border-radius: 2px;
+            padding-left: 8px;
+        }
+        #logButton{
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 10px;
+            padding-left:7px;
+            color:black;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h2>login </h2>
+    <div class="div1">
+        <form name="myForm" method="post">
+            <label> user name</label>
+            <input type = "text" name = "uname" class="inputText" placeholder="user name ">
+            <br><br>
+            <label>password</label>
+            <input type="password" name ="pass" class="inputText " placeholder="password">
+            <br><br>
+            <input type="button" name="log" id="logButton" value="login" onclick="myFunction()">
+            <br><br>
+        </form>
+    </div>
+</body>
+</html>
